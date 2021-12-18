@@ -1,0 +1,3 @@
+jack|1234-111|kazi_shezan@yahoo.com|Male|1993-03-10|123|dhanmondi|logo.jfif|teacher
+zara|20-12341-1|tasnkita.2000@gmail.com|Female|1999-06-08|123|dhanmondi|logo.jfif|student
+minu|122-555441-1|jererety12@gmail.com|Female|1965-02-10|123|dhanmondi|logo.jfif|parent

@@ -1,0 +1,128 @@
+#d1{
+	
+	position: fixed;		
+}
+
+.i1{
+		position: absolute;
+	
+ 	width: 1500px;
+	height:720px;
+
+  }
+
+
+  #d2{
+  	position: fixed;	
+	
+	width: 1500px;
+	height: 690px;
+    top: 40px;	
+}
+
+.i2{
+	position: absolute;
+	top: 20px;
+	
+	
+}
+  #d3{
+	
+	position: fixed;		
+}
+
+.i3{
+		position: absolute;
+
+
+	top: -33px;
+	
+ 	width: 300px;
+	height:50px;
+
+  }
+    #d4{
+	
+	position: fixed;		
+}
+
+.i4{
+		position: absolute;
+
+
+	top: 200px;
+	left: 100px;
+	
+ 	width: 300px;
+	height:50px;
+
+  }
+    #d5{
+    			position: absolute;
+		
+}
+
+.i5{
+
+		position: absolute;
+
+
+	top: 160px;
+	left: 450px;
+	
+ 	width: 300px;
+	height:50px;
+
+  }
+
+  #d6{
+	
+	position: fixed;		
+}
+
+.i6{
+		position: absolute;
+
+
+	top: 200px;
+	left: 850px;
+	
+ 	width: 300px;
+	height:50px;
+
+  }
+    #d7{
+	
+	position: fixed;		
+}
+
+.i7{
+		position: absolute;
+
+
+	top: 200px;
+	left: 1200px;
+	
+ 	width: 300px;
+	height:50px;
+
+  }
+      #d8{
+	
+	position: fixed;		
+}
+
+.i8{
+		position: absolute;
+
+
+	top: 650px;
+	left: 650px;
+	
+ 	width: 300px;
+	height:50px;
+
+  }
+
+
+

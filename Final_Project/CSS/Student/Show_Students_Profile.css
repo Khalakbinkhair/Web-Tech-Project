@@ -1,0 +1,71 @@
+#d1{
+	
+	position: fixed;		
+}
+
+.i1{
+		position: absolute;
+	
+ 	width: 1500px;
+	height:720px;
+
+  }
+
+
+  #d2{
+  	position: fixed;	
+	
+	width: 1500px;
+	height: 690px;
+    top: 40px;	
+}
+
+.i2{
+	position: absolute;
+	top: 20px;
+	
+	
+}
+  #d3{
+	
+	position: fixed;		
+}
+
+.i3{
+		position: absolute;
+
+
+	top: -33px;
+	
+ 	width: 300px;
+	height:50px;
+
+  }
+    #d4{
+	
+	position: fixed;	
+
+ 	width: 350px;
+	height:300px;
+
+	top: 150px;
+	left: 1150px;
+
+	background: white;
+
+}
+
+.i4{
+		position: absolute;
+		top: 00px;
+		
+		 	width: 350px;
+	height:300px;
+
+
+
+  }
+ 
+
+
+

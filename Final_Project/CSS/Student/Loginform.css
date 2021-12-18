@@ -1,0 +1,43 @@
+#d1{
+	
+	position: fixed;
+
+			
+}
+
+.i1{
+		position: absolute;
+	
+ 	width: 1500px;
+	height:720px;
+	
+
+  }
+ #d2{
+  	position: fixed;	
+	
+	width: 1500px;
+	height: 690px;
+    top: 220px;	
+}
+
+
+
+
+ 
+  #d3{
+	
+	position: relative;	
+	
+}
+
+.i3{
+		position: absolute;
+
+
+	top: -234px;
+	left: 0px;
+ 	width: 300px;
+	height:50px;
+
+  }

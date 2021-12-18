@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>REGSTRATION PAGE</title>
+	<link rel="stylesheet" type="text/css" href="../../controller/Admin/style.css">
+</head>
+<body>
+
+	<form method="post" action="../../controller/Admin/regcheck.php">
+		<div id="d1">
+            
+			<img src="../../asset/Admin/back2.jpeg" class="c1" >
+       </div>
+             <div id="d3" >
+	             <div class="c2">
+		
+
+                       <center> <legend><h2>REGSTRATION</h2></legend></center>
+                               <b>Username:</b><br/>
+							   <input type="text" name="username" value="" placeholder="Enter Username"> *Atleast two words<br/>
+							   <b>Id:</b><br/>
+							   <input type="text" name="id" value="" placeholder="Enter UserId">*Can contain 0-9, dash only<br/>
+							   <b>Email:</b><br/>
+							   <input type="email" name="email" value="" placeholder="Enter Valid Email">*(anything@example.com)<br/>
+							   <b>Date of Birth:</b><br/>
+							   <input type="date" name="date" value="date" ><br/>
+							   <b>Gender:</b><br/>
+                                <input type="radio" name="gender" value="Male"><b>Male</b>
+                                <input type="radio" name="gender" value="Female"><b>Female</b>
+                                <input type="radio" name="gender" value="Other"><b>Other</b><br/>
+								
+                              <b>Address:</b></td><br/>
+                              <input type="text" name="add" value="" placeholder="Enter Address"><br/>
+							  <b>Password:</b><br/>
+							  <input type="password" name="password" value="" placeholder="Enter Password"><br/>
+							  <b>Picture:</b><br/>
+							  <input type="file" name="file" value=""><br/><br/>
+							  <b>User Type:</b><br/>
+                                <input type="radio" name="usertype" value="Admin"><b>Admin</b>
+                                <input type="radio" name="usertype" value="Teacher"><b>Teacher</b>
+								<input type="radio" name="usertype" value="Student"><b>Student</b>
+                                <input type="radio" name="usertype" value="Parent"><b>Parent</b><br/>
+							  <input type="submit" name="submit" value="Submit"><br/><br/>
+							  Back to <a href="login.html">Login</a>
+
+				 </div>
+			 </div>
+                           
+	</form>
+</body>
+</html>
+
+

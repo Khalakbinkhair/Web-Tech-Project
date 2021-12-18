@@ -1,0 +1,76 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="../../CSS/Student/Send_Message_to_Faculty.css">
+
+</head>
+
+<body >
+    <div id="d1">
+        <img src="../../assets/Student/uni2.jpg" class="i1">
+                </div>
+                <div id="d2" >
+  <form method="post" onSubmit="ajax(event)" >
+    <table  border="1" class="i2">
+      <tr>
+        <td align="center"><b>Application to Faculty</b></td>
+      </tr>
+
+<tr>
+<td align="center">
+    
+
+<textarea name="myname" id="myname" value="">
+  
+</textarea>
+<input type="hidden" name="name" id="name" value="Faculty">
+<input type="submit" name="submit"value="Send" />|<a href="Home.php">Back</center> </h3>
+</td></tr>
+
+ </table>
+ </form>
+ <script type="text/javascript">
+    
+function ajax(e){
+
+console.log(e);
+e.preventDefault();
+console.log("Form Submitted");
+
+    let myname = document.getElementById('myname').value;
+    let name   = document.getElementById('name').value;
+
+
+    let json = {
+        'myname'    : myname,
+        'name'      : name,
+    
+    }
+
+    let myjson = JSON.stringify(json);
+    console.log(myjson);
+
+    
+    let http= new XMLHttpRequest();
+
+    //xhttp.open('GET', 'abc.php?name='+name, true);
+    http.open('POST', `Send_Message_to_Faculty.php`, true);
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    http.send(`data= ${myjson}`);
+
+    http.onreadystatechange = function(){
+
+        if(this.readyState == 4 && this.status == 200){
+            //document.getElementById('d2').innerHTML = this.responseText;  
+            //let obj = JSON.parse(this.responseText);             
+             alert(this.responseText);
+
+        }
+    }
+}
+
+</script>
+</body>
+</html>
